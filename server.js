@@ -16,7 +16,7 @@ app.use(cors())
 
 
 // mount routes with app.use()
-app.use('/api/lessons', require('./routes/api/lessons'))
+// app.use('/api/lessons', require('./routes/api/lessons'))
 
 
 // tell the app to listen port 3001
