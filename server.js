@@ -6,8 +6,8 @@ const cors = require('cors')
 const app = express()
 
 // configure settings app.set()
-// require('dotenv').config()
-// require('./config/database')
+require('dotenv').config()
+require('./config/database')
 
 // mount middleware with app.use()
 app.use(morgan('dev'))
