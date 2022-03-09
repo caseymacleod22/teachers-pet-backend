@@ -12,7 +12,7 @@ require('./config/database')
 // mount middleware with app.use()
 app.use(morgan('dev'))
 app.use(express.json()) // converts incoming json into req.body
-// app.use(cors())
+app.use(cors())
 
 
 // mount routes with app.use()
