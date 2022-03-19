@@ -4,7 +4,7 @@ const connectionURI = `mongodb+srv://admin:pepper22@cluster0.esjr1.mongodb.net/t
 
 const db = mongoose.connection;
 
-module.exports = db
+// module.exports = db
 
 mongoose.connect(process.env.DATABASE_URI, {
     useNewUrlParser: true,
